@@ -116,7 +116,8 @@ fbset -depth 32 && fbset -depth 32 -xres 1920 -yres 240
 ;;
 
 "psx") # Load PSX timings
-vcgencmd hdmi_timings 1920 1 48 192 240 248 1 3 10 6 0 0 0 60 0 38400000 1
+#vcgencmd hdmi_timings 1920 1 48 192 240 248 1 3 10 6 0 0 0 60 0 38400000 1
+vcgencmd hdmi_timings=320 1 15 29 40 240 1 10 14 16 0 0 0 60 0 6400000 1
 tvservice -e "DMT 87"
 fbset -depth 32 && fbset -depth 32 -xres 1920 -yres 240
 ;;
