@@ -9,24 +9,25 @@
 #sdram_over_voltage=2
 #force_turbo=1
 
-# Overclock to 1.55 for RP3b+
-arm_freq=1500
-gpu_freq=500
+# Overclock to 1.525 for RP3b+
+arm_freq=1525
+gpu_freq=550
 core_freq=550
-sdram_freq=500
+sdram_freq=550
 sdram_schmoo=0x02000020
 over_voltage=6
+v3d_freq=550
 sdram_over_voltage=2
 #force_turbo=1
 
 
 dtparam=audio=on
+gpu_mem=256
 gpu_mem_256=128
 gpu_mem_512=256
 gpu_mem_1024=256
 overscan_scale=1
 boot_delay=1
-gpu_mem=128
 hdmi_ignore_cec_init=1
 dtoverlay=dpi24
 enable_dpi_lcd=1
